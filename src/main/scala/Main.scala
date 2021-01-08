@@ -11,6 +11,9 @@ object Main extends App {
     println("Usage: Main [input dir] [output dir]")
     System.exit(-1)
   }
+
+  val job = Job.getInstance()
+
   job.setJarByClass(Main.getClass())
   job.setJobName("Lego Set Checker")
   job.setInputFormatClass(classOf[TextInputFormat])
