@@ -14,6 +14,11 @@ data about the various sets, inventories, themes and more.
 * Git + GitHub
 
 ## Features
+* Reads in data from a database consisting of multiple CSV files and stores the data in case class
+* Stores the data on HDFS for processing using a custom Hadoop Job
+* Custom Mapper class extending Hadoop API in Scala
+* Custom Reducer class extending Hadoop API in Scala
+* Analyzes data stored on HDFS using HQL and Hive 
 
 # Usage/Getting Started
 ### Initializing the Hadoop-Hive docker
@@ -24,3 +29,6 @@ data about the various sets, inventories, themes and more.
 * cd ~
 * cd docker-hadoop/
 * docker-compose up -d
+### Running the Jar using Haddop CLI
+* docker cp JarName nameNodeID:NewJarName (from local terminal)
+* hadoop jar JarName InputDirName OutputDirName (in bash inside docker hadoop)
