@@ -15,16 +15,12 @@ data about the various sets, inventories, themes and more.
 
 ## Features
 
-# Dataset
-https://www.kaggle.com/rtatman/lego-database
-
 # Usage/Getting Started
-*# Dataset https://www.kaggle.com/rtatman/lego-database
-Initializing the Hadoop-Hive docker
-*cd ~
-*cd docker-hive/
-*docker-compose up -d
-Initializing the Hadoop docker
-*cd ~
-*cd docker-hadoop/
-*docker-compose up -d
+### Initializing the Hadoop-Hive docker
+* cd ~
+* cd docker-hive/
+* docker-compose up -d
+### Initializ ing the Hadoop docker
+* cd ~
+* cd docker-hadoop/
+* docker-compose up -d
