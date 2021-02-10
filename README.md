@@ -10,6 +10,7 @@ data about the various sets, inventories, themes and more.
 * Hadoop MapReduce
 * YARN
 * HDFS
+* Hive
 * Scala
 * Git + GitHub
 * LEGO Database https://www.kaggle.com/rtatman/lego-database?select=downloads_schema.png
