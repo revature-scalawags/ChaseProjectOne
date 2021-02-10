@@ -29,6 +29,6 @@ data about the various sets, inventories, themes and more.
 * cd ~
 * cd docker-hadoop/
 * docker-compose up -d
-### Running the Jar using Haddop CLI
+### Running the Jar using Hadoop CLI
 * docker cp JarName nameNodeID:NewJarName (from local terminal)
 * hadoop jar JarName InputDirName OutputDirName (in bash inside docker hadoop)
