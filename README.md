@@ -12,6 +12,7 @@ data about the various sets, inventories, themes and more.
 * HDFS
 * Scala
 * Git + GitHub
+* LEGO Database https://www.kaggle.com/rtatman/lego-database?select=downloads_schema.png
 
 ## Features
 * Reads in data from a database consisting of multiple CSV files and stores the data in case class
